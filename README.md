@@ -1,5 +1,5 @@
 <h1 align="center">
- <strong>FuekCost</strong>
+ <strong>FuelCost</strong>
  <br/><br/>
 </h1>
 
