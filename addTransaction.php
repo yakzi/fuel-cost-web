@@ -33,7 +33,7 @@ $statement->execute();
 
 if ($statement->rowCount() > 0)
 {
-	header("location: index.html");
+	header("location: indexNew.php");
 }
 else
 {

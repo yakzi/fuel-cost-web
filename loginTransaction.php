@@ -31,7 +31,7 @@ if ($statement->rowCount() > 0) {
     if ($password === $row->password) {
         $_SESSION["user_id"] = $row->id;
 		$_SESSION["user_name"] = $row->email;
-        header("location: index.html");
+        header("location: indexNew.php");
     } else {
         header("location: login.html"); 
     }
