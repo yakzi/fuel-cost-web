@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>FuelCost</title>
+</head>
+
+<body>
+  
+  <div class=container>
+    <div class="col-md-8 offset-md-2 todo">
+      <h1 class="text-center mt-5">FuelCost</h1>
+      <div>
+        <form id="addTransaction" action="addTransaction.php" method="post">
+          <div class="form-group">
+          <input type="number" class="mt-2" step="0.01" id="dist" name="dist" placeholder="Pokonany dystans" required/>
+          <input type="number" class="mt-2" step="0.01" id="fuel" name="fuel" placeholder="Ilość spalonego paliwa" required/>
+          <input type="number" class="mt-2" step="0.01" id="fuelPrice" name="fuelPrice" placeholder="Cena paliwa (PLN/l)"" required/>
+          <button type="submit" btn btn-md text-center>Dodaj</button>
+          </form>
+        </div>
+      </div>
+      <div class="records">
+        <ul id="record"></ul>
+      </div>
+    </div>
+  </div>
+  <!--<footer class="footer">
+    <div class="footer " style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="copyright">    © 2021 Copyright:
+        Jakub Zięba
+      </div>
+    </div>
+    
+  </footer>-->
+
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
