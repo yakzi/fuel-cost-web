@@ -23,7 +23,8 @@ and add fuel expenses.
 
 ## Screenshots
 <p align="center">
- <img src="./Screenshots/fuelcost.jpg" alt="Screenshot from FuelCost application"/>
+ <img src="./Screenshots/FuelCost.png" alt="Screenshot from FuelCost application"/> <br>
+ <img src="./Screenshots/FuelCostResponsive.png" alt="Screenshot from FuelCost application"/>
 </p>
 
 ## Technologies
